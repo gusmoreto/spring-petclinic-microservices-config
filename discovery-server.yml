@@ -3,7 +3,7 @@
 
 eureka:
   instance:
-    hostname: pc-discovery-server.pc-discovery-server.svc
+    hostname: localhost
   # standalone mode
   client:
     registerWithEureka: false
