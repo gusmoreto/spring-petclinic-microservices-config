@@ -3,11 +3,11 @@
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: pc-discovery-server.pc-discovery-server.svc
   # standalone mode
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://pc-discovery-server.pc-discovery-server.svc:8761/eureka/
 
